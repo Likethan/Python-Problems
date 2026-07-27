@@ -1,0 +1,7 @@
+def second_largest(numbers):
+    unique_nums = list(set(numbers))
+    if len(unique_nums) < 2:
+        return None
+    unique_nums.sort()
+    return unique_nums[-2]
+print(second_largest([10, 20, 4, 45, 99, 99]))  
