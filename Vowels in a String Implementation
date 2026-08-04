@@ -1,0 +1,2 @@
+def count_vowels_short(text):
+    return sum(1 for char in text if char in "aeiouAEIOU")
