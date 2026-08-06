@@ -1,0 +1,5 @@
+def find_minimum_builtin(nums):
+    if not nums:
+        return None
+    return min(nums)
+print(find_minimum_builtin([4, 2, 9, 1, 5, 6]))  
