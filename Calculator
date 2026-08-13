@@ -1,0 +1,13 @@
+def calculate(a, b, operation):
+    if operation == '+':
+        return a + b
+    elif operation == '-':
+        return a - b
+    elif operation == '*':
+        return a * b
+    elif operation == '/':
+        return a / b if b != 0 else "Cannot divide by zero"
+    else:
+        return "Invalid operation"
+print(calculate(10, 5, '+'))  
+print(calculate(10, 2, '/'))  
